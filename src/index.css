@@ -1,0 +1,57 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.parent-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-container{
+  width: 500px;
+}
+
+.cashier-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.cashier-box{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn{
+  padding: 10px;
+  color: white;
+  background-color: skyblue;
+  border: none;
+  border-radius: 10px;
+}
+
+.queue-container{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(60px, 1fr));
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.product{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 0;
+}
